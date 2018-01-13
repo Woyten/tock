@@ -1,4 +1,6 @@
 {
     "editor.formatOnSave": true,
     "rust-client.channel": "nightly-2018-01-05",
+    "rust.unstable_features": true, // Needed for workspace mode
+    "rust.workspace_mode": true,
 }

@@ -1,0 +1,14 @@
+[workspace]
+members = [
+    "arch/cortex-m0",
+    "arch/cortex-m4",
+    "capsules",
+    "chips/nrf5x",
+#   "chips/nrf51", // FIXME: Cannot use together with nrf52 because of feature flag in nrf5x
+    "chips/nrf52",
+    "chips/sam4l",
+    "tools/usb/control-test",
+    "userland/tools/elf2tbf",
+    "kernel"
+    # FIXME: boards/, doc/ and tools/ lead to a RLS hangup
+]
